@@ -22,7 +22,7 @@ public class usingInterface {
 
         public void show() {
             A.super.show();   // choose explicitly
-            B.super.show();
+            B.super.show();   //
         }
     }
 
