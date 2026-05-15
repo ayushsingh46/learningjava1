@@ -29,7 +29,6 @@ public class ThrowAndCatch {
             int result = 10 / 0;
             System.out.println("Result: " + result);
         } catch (ArithmeticException e) {
-            System.out.println("Caught Exception: " + e.getMessage()); //
         } finally {
             System.out.println("Finally block always runs!");
         }
